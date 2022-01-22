@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+    &__line-vertical {
+        border-left: 6px solid green;
+        height: 500px; 
+    }
+
+    &__links {
+        a {
+            cursor: pointer;
+            font-size: 25px;
+            &:hover {
+                transition: 0.2;
+                font-size: 35px;
+                color:#5c5c5c;
+            }
+        }
+        img {
+            height: 45px;
+        }
+      
+    }
+}

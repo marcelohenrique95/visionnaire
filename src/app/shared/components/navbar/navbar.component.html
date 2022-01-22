@@ -1,0 +1,9 @@
+<div class="navbar mt-2">
+    <div class="navbar__btn-option" *ngFor="let item of menu_items">
+        <div class="row">
+            <button routerLinkActive="active" routerLink="{{ item.router }}">
+                <a>{{ item.option | uppercase }}</a>
+            </button>
+        </div>
+    </div>
+</div>
