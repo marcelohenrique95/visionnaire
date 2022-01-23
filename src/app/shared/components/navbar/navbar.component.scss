@@ -1,5 +1,5 @@
 .navbar {
-    min-width: 600px;
+    min-width: 500px;
     height: 55px;
     background: #485b74;
     padding: 5px 95px;
@@ -28,3 +28,8 @@
     }
 }
 
+@media only screen and (max-device-width: 900px) {
+    .navbar {
+        min-width: 400px;
+    }
+}

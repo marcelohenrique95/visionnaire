@@ -1,11 +1,14 @@
 .home {
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #485B74;
 
-    &__line-vertical {
-        border-left: 6px solid green;
-        height: 500px; 
+    h1, h2 {
+        text-shadow: 0 0px 5px #fff;
+    }
+
+    hr{
+        border: 2px solid #485B74;
     }
 
     &__links {

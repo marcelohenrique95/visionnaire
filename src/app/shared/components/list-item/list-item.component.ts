@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-list-item',
@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListItemComponent implements OnInit {
 
-  constructor() { }
+  @Input() list_items: any[] = [];
+
+  page = 1;
+  pageSize = 7;
+  collectionSize: number;
+
+  constructor() {
+    this.collectionSize = 0;
+   }
 
   ngOnInit(): void {
   }

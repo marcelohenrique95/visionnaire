@@ -1,0 +1,187 @@
+[
+    {
+        "id": 1,
+        "number": "+55 65 98103-1406",
+        "monthyPrice": 20.00,
+        "setupPrice": 0.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 2,
+        "number": "+55 65 91234-2212",
+        "monthyPrice": 20.00,
+        "setupPrice": 0.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 3,
+        "number": "+55 67 99677-5552",
+        "monthyPrice": 25.00,
+        "setupPrice": 5.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 4,
+        "number": "+55 65 99610-2212",
+        "monthyPrice": 25.00,
+        "setupPrice": 5.00,
+        "currency": "BRL",
+        "active": false
+    },
+    {
+        "id": 5,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 25.00,
+        "setupPrice": 5.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 6,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 35.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 7,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 35.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": false
+    },
+    {
+        "id": 8,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 40.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 9,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 50.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 10,
+        "number": "+55 84 99610-2212",
+        "monthyPrice": 50.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 11,
+        "number": "+55 69 99040-4289",
+        "monthyPrice": 50.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": false
+    },
+    {
+        "id": 12,
+        "number": "+55 44 99310-3745",
+        "monthyPrice": 100.00,
+        "setupPrice": 20.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 13,
+        "number": "+55 82 99000-3351",
+        "monthyPrice": 50.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 14,
+        "number": "+55 82 98705-9835",
+        "monthyPrice": 50.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 15,
+        "number": "+55 46 98440-2244",
+        "monthyPrice": 150.00,
+        "setupPrice": 40.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 16,
+        "number": "+55 67 99989-8281",
+        "monthyPrice": 300.00,
+        "setupPrice": 50.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 17,
+        "number": "+55 69 98171-3147",
+        "monthyPrice": 300.00,
+        "setupPrice": 50.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 18,
+        "number": "+55 65 99274-8082",
+        "monthyPrice": 150.00,
+        "setupPrice": 40.00,
+        "currency": "BRL",
+        "active": true
+
+    },
+    {
+        "id": 19,
+        "number": "+55 65 99881-5487",
+        "monthyPrice": 150.00,
+        "setupPrice": 40.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 20,
+        "number": "+55 85 98310-3111",
+        "monthyPrice": 80.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": false
+    },
+    {
+        "id": 21,
+        "number": "+55 44 98120-3999",
+        "monthyPrice": 80.00,
+        "setupPrice": 10.00,
+        "currency": "BRL",
+        "active": false
+    }, 
+    {
+        "id": 22,
+        "number": "+55 64 98440-3771",
+        "monthyPrice": 20.00,
+        "setupPrice": 2.00,
+        "currency": "BRL",
+        "active": true
+    },
+    {
+        "id": 23,
+        "number": "+55 62 99940-9421",
+        "monthyPrice": 20.00,
+        "setupPrice": 2.00,
+        "currency": "BRL",
+        "active": true
+    }
+]

@@ -1,0 +1,35 @@
+.card-container {
+    width: 300px;
+    height: 200px;
+    background: #efefef;
+    box-shadow: 2px 4px 8px -2px #000;
+    margin: 45px 5px 0px 50px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    h1 {
+        color: #111936;
+    }
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.circle {
+    display: block;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    margin-right: 15px;
+    background: radial-gradient(circle at 10px 10px, #5cabff, #000);
+}
+
+@media only screen and (max-device-width: 930px) {
+    .container {
+        flex-direction: column !important;
+    }
+}

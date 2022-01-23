@@ -1,1 +1,9 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap/scss/bootstrap';
+
+.sr-only {
+    display: none;
+}
+body {
+    background: #a2c3ee;
+}

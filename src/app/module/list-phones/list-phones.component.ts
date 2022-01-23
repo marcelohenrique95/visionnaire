@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PhoneService } from 'src/app/service/phone.service';
+import { Phone } from 'src/app/shared/model/phone';
 
 @Component({
   selector: 'app-list-phones',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListPhonesComponent implements OnInit {
 
-  constructor() { }
+  public phones: Phone[] = [];
+
+  constructor(private phoneService: PhoneService) { }
 
   ngOnInit(): void {
+    this.listPhones();
+  }
+
+   listPhones() {
+    this.phoneService.getListPhones().subscribe((res) => {
+      if(res) {
+        this.phones = res;
+      }
+    })
   }
 
 }

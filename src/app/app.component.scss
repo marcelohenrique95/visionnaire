@@ -1,9 +1,6 @@
 .grid {
 	display: grid;
 	grid-template-columns: 0.5fr 1.5fr 1fr;
-    
-    background: #7e9ec7;
-	
 }
 
 .nav {
@@ -15,7 +12,6 @@
 	grid-area: content;
 	display: block;
     min-height: 500px;
-    background: #485b74;
 }
 
 .grid-template-areas-1 {

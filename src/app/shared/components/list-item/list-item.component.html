@@ -1,1 +1,53 @@
-<p>list-item works!</p>
+<div class="list-container">
+  <div class="list-container__table mt-5">
+    <!-- Posteriormente substituir por icones para responsividade -->
+    <div class="thead-icon mb-2">
+      <a>Nº</a>
+      <a>Mensa.</a>
+      <a>Inst</a>
+      <a>Disp</a>
+    </div>
+    <!-- Tabela de numeros -->
+    <table class="table">
+      <thead>
+        <th>Número</th>
+        <th class="tex-center mr-2">Mensalidade</th>
+        <th>Valor de instalação</th>
+        <th>Disponibilidade</th>
+      </thead>
+      <tbody
+        *ngFor="
+          let item of list_items
+            | slice: (page - 1) * pageSize:(page - 1) * pageSize + pageSize
+        "
+      >
+        <tr>
+          <td>{{ item?.number | phonePipe }}</td>
+          <td class="text-left">
+            {{ item?.currency | realPipe }} {{ item?.monthyPrice }},00
+          </td>
+          <td class="text-left">
+            {{ item?.currency | realPipe }} {{ item?.setupPrice }},00
+          </td>
+          <td *ngIf="item.active">
+            <img src="assets/icons/icon-check.svg" />
+          </td>
+          <td *ngIf="!item.active">
+            <img src="assets/icons/icon-cancel.svg" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p *ngIf="list_items.length === 0">Não há itens para serem mostrados.</p>
+
+    <!-- Paginaçao da tabela -->
+    <ngb-pagination
+      class="d-flex justify-content-center mt-2"
+      [(page)]="page"
+      [pageSize]="pageSize"
+      [collectionSize]="list_items.length"
+    >
+    </ngb-pagination>
+  </div>
+</div>
