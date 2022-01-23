@@ -1,27 +1,26 @@
-# VisionnaireProject
+<h1 align="center">Aplicação web de listagem de telefones</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+## Angular 12 + Bootstrap 4
 
-## Development server
+# Info
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Status
+:warning: <b>EM DESENVOLVIMENTO</b>
 
-## Code scaffolding
+# Programas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- VSCode
+- Nodejs
 
-## Build
+# Instalaçao
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- npm install -g @angular/cli
 
-## Running unit tests
+# Instalar depedencias (node_modules)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- npm install
 
-## Running end-to-end tests
+# Rodar projeto local
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- npm start
+- localhost:4200
